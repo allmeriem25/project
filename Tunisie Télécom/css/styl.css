@@ -1,0 +1,223 @@
+.login-form .group  {
+    color: #aaa;
+    font-size: 12px;
+  }
+  .login-form .group .button {
+    background: #1161ee;
+    cursor: pointer;
+  }
+  .login-form .group .button:hover {
+      background:#1454c4;
+      cursor: pointer;
+    }
+  .login-form .group label .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .login-form .group label .icon:before,
+  .login-form .group label .icon:after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .login-form .group label .icon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0);
+  }
+  .login-form .group label .icon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0);
+  }
+  .login-form .group .check:checked + label {
+    color: #fff;
+  }
+  .login-form .group .check:checked + label .icon {
+    background: #1161ee;
+  }
+  .login-form .group .check:checked + label .icon:before {
+    transform: scale(1) rotate(45deg);
+  }
+  .login-form .group .check:checked + label .icon:after {
+    transform: scale(1) rotate(-45deg);
+  }
+  .login-html
+    .sign-in:checked
+    + .tab
+    + .sign-up
+    + .tab
+    + .login-form
+    .sign-in-htm {
+    transform: rotate(0);
+  }
+  .login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+    transform: rotate(0);
+  }
+  .separator {
+      margin-top: 100px;
+      text-align: center;
+      position: relative;
+  }
+  
+  .separator span {
+      position: absolute;
+      z-index: 1;
+      border-radius: 20px;
+      width: 100%;
+  }
+  
+  .separator span {
+      position: absolute;
+      right: 0px;
+      top: -90px;
+      background: rgba(255, 255, 255, 0.2);
+      font-style: italic;
+      z-index: 10;
+      padding: 0px 20px;
+  }
+  .hr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .foot-lnk {
+    text-align: center;
+  }
+  .loginBtn {
+    box-sizing: border-box;
+    position: relative;
+    /* width: 13em;  - apply for fixed size */
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+  }
+  .loginBtn:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+  }
+  .loginBtn:focus {
+    outline: none;
+  }
+  .loginBtn:active {
+    box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+  }
+  
+  
+  /* Facebook */
+  .loginBtn--facebook {
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-shadow: 0 -1px 0 #354C8C;
+  }
+  .loginBtn--facebook:before {
+    border-right: #364e92 1px solid;
+    background: url('icon_facebook.png') 6px 6px no-repeat;
+  }
+  .loginBtn--facebook:hover,
+  .loginBtn--facebook:focus {
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+  }
+  
+  /* Google */
+  .loginBtn--google {
+    font-family: "Roboto", Roboto, arial, sans-serif;
+    background: #DD4B39;
+  }
+  .loginBtn--google:before {
+    border-right: #BB3F30 1px solid;
+    background: url('icon_google.png') 6px 6px no-repeat;
+  }
+  .loginBtn--google:hover,
+  .loginBtn--google:focus {
+    background: #E74B37;
+  }
+  #pos
+  {
+    position: absolute;
+    left: 90px;
+    top: 430px;
+    text-align: center;
+  }
+  #pos1
+  {
+    position: absolute;
+    left: 100px;
+    top: 390px;
+    text-align: center;
+  }
+  .member
+  {
+    position: absolute;
+    left: 130px;
+    top: 510px;
+    text-align: center;
+    color: #5C5C5C;
+  }
+  .shit{
+    color: #5C5C5C; 
+  }
+  #myVideo {
+     width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+  }
+  input{
+    color:#4864B1;
+    border: 3px 3px 3px black;
+    padding-right: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+  }
+  button{
+    color:rgb(91, 145, 174);
+    border: 2px 2px 2px orange;
+  }
+  #fro{
+    position: relative;
+    left: 550px;
+    padding-top: 60px;
+  }
+  a {
+    color: #6027e4; /* Couleur du lien */
+    text-decoration: none; /* Supprime la soulignement par défaut */
+    transition: color 0.3s ease; /* Transition fluide lors du survol */
+    text-align: center;
+  }
+  a:hover {
+    color: #0056b3; /* Couleur du lien au survol */
+  }
+  .container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+   
+    
+  }
